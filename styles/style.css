@@ -64,6 +64,9 @@ ul li{
 .banner{
     width: 1440px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner_content{
@@ -85,8 +88,36 @@ ul li{
 
 .banner_description{
     text-transform: capitalize;
-    font-weight: 400;
+    font-weight: 500;
     padding: 25px;
     margin:  0 auto;
+    color: #727272;
 }
 
+.btn_primary{
+    background-color: #FF900E;
+    color: #ffff;
+    padding: 20px 15px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.banner_img{
+    width: 950px;
+    height: 500px;
+    padding: 15px 0;
+    margin: 0 auto;
+}
+
+
+.btn_primary:hover{
+    transform: translateY(-10px);
+    color: #ffff;
+    background-color: purple;
+    box-shadow: 15px 10px 15px;
+}
